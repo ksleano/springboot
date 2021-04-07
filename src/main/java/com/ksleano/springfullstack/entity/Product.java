@@ -16,7 +16,7 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
-    private long id;
+    private Long id;
 
     @ManyToOne
     @JoinColumn(name="category_id", nullable = false)
@@ -51,6 +51,4 @@ public class Product {
     @UpdateTimestamp
     private Date lastUpdated;
 
-    @Column(name="category_id")
-    private long categoryId;
 }
