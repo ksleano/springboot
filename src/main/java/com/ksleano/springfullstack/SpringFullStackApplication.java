@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringFullStackApplication {
 
 	public static void main(String[] args) {
-		System.out.println("biiiitch");
 		SpringApplication.run(SpringFullStackApplication.class, args);
 	}
 
 }
+g
